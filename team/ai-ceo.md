@@ -5,6 +5,7 @@ tags:
   - CEO
   - AiRuu
 aliases:
+  - Ai — CEO
   - Ai
   - CEO
   - 最高経営責任者

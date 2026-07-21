@@ -4,6 +4,7 @@ tags:
   - 会社
   - AiRuu
 aliases:
+  - 会社概要
   - AiRuu Inc. とは
   - About
 ---
