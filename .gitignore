@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian（個人の作業状態は同期しない。プラグインや外観を共有したくなったら見直す）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
