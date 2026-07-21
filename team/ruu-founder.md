@@ -5,6 +5,7 @@ tags:
   - 創業者
   - AiRuu
 aliases:
+  - Ruu — 創業者
   - Ruu
   - 創業者
   - Founder

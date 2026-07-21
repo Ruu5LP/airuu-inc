@@ -5,6 +5,7 @@ tags:
   - AiRuu
   - MOC
 aliases:
+  - 振り返り
   - レビュー
   - Reviews
 ---

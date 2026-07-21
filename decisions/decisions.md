@@ -5,6 +5,7 @@ tags:
   - AiRuu
   - MOC
 aliases:
+  - 決定ログ
   - 意思決定ログ
   - Decisions
 ---
@@ -15,7 +16,7 @@ Ruu と Ai が「決めたこと」を残す場所。後から「なぜこう決
 
 ## 書き方
 
-- ファイル名は `YYYY-MM-DD-短いタイトル.md`（例: `2026-07-21-リポジトリ構成を整える.md`）。
+- ファイル名は `YYYY-MM-DD-english-slug.md`（ASCII、例: `2026-07-21-agent-ready-repo.md`）。タイトルは frontmatter の `title` に日本語で書く。
 - 各ノートに入れたいこと:
   - **決めたこと** — 一言で。
   - **背景 / 選択肢** — 何と何で迷い、なぜこれを選んだか。

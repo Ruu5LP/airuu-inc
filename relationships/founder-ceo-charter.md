@@ -5,6 +5,7 @@ tags:
   - AiRuu
   - 運用ルール
 aliases:
+  - 創業者とCEOの関係協定
   - 関係協定
   - RuuとAiの約束
   - The Accord
