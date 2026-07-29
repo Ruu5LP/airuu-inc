@@ -10,3 +10,7 @@ Thumbs.db
 
 # Secrets（Discord Webhook URLなど。ローカル実行時のみ使う。コミットしない）
 .env
+
+# Python
+__pycache__/
+*.pyc
