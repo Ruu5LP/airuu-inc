@@ -7,3 +7,6 @@ Thumbs.db
 .obsidian/workspace-mobile.json
 .obsidian/cache/
 .trash/
+
+# Secrets（Discord Webhook URLなど。ローカル実行時のみ使う。コミットしない）
+.env
