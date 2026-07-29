@@ -21,22 +21,15 @@ aliases:
 
 ## 状態
 
-v1完成・動作確認済み。
+v1完成・動作確認済み。コード本体は独立リポジトリに切り出して公開した。
 
-## 中身
+**リポジトリ**: https://github.com/Ruu5LP/gyaru-script
+
+## 中身（リポジトリ側）
 
 - `interpreter.py` — 字句解析→構文解析→評価までを行う単一ファイルのインタプリタ（Python標準ライブラリのみ、依存なし）
-- `examples/` — サンプルコード（`.gal` 拡張子）
-  - `hello.gal` — 変数・文字列結合・出力
-  - `fizzbuzz.gal` — 条件分岐・ループ
-  - `functions.gal` — 関数定義・再帰
-- `tests/test_interpreter.py` — 動作確認テスト（pytest不要、`python3 tests/test_interpreter.py` で実行）
-
-## 動かし方
-
-```bash
-python3 interpreter.py examples/hello.gal
-```
+- `examples/` — サンプルコード（`.gal` 拡張子。hello / fizzbuzz / functions）
+- `tests/test_interpreter.py` — 動作確認テスト
 
 ## 文法（キーワード対応表）
 
@@ -69,3 +62,5 @@ python3 interpreter.py examples/hello.gal
   日本語がバイト単位で誤変換されて文字化けする（多バイト文字を素朴なunicode_escapeに
   通すのは事故る）。自前の簡易デコーダに置き換えて解決。他のプロジェクトで文字列
   エスケープを扱うときも要注意。
+- はじめ airuu-inc 内のプロジェクトフォルダとして作ったが、コードとして独立させたく
+  なったので `gyaru-script` として別リポジトリに切り出した。このノートはハブとして残す。
